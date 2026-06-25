@@ -1,0 +1,42 @@
+# R and RStudio
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+.Rbuildignore
+
+# Data files (too large to store in Git)
+data/*.csv
+data/*.tsv
+data/*.xlsx
+data/*.rds
+data/raw/
+data/downloads/
+
+# Results and output files
+results/*.png
+results/*.pdf
+results/*.jpg
+results/*.csv
+results/*.tsv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+venv/
+ENV/
+
+# Temporary files
+*~
+*.tmp
+.Rmarkdown-cache/
